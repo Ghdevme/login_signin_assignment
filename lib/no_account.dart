@@ -1,7 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'package:login_signin_assignment/login_page.dart';
-import 'package:login_signin_assignment/signup_page.dart';
+import 'package:login_signin_assignment/home_page.dart';
 
 class NoAccount extends StatelessWidget {
   const NoAccount({super.key});
@@ -29,7 +28,7 @@ class NoAccount extends StatelessWidget {
           onPressed: (){
             Navigator.push(
                 context,
-              MaterialPageRoute(builder: (context) => LoginPage()),
+              MaterialPageRoute(builder: (context) => HomePage()),
             );
           },
           child: Text("LogIn"),

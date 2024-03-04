@@ -7,8 +7,8 @@ import 'package:login_signin_assignment/password.dart';
 import 'package:login_signin_assignment/title_head.dart';
 import 'package:login_signin_assignment/user_name.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {

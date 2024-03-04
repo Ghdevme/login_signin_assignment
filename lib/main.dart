@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_signin_assignment/back_arrow.dart';
-import 'package:login_signin_assignment/login_page.dart';
+import 'package:login_signin_assignment/home_page.dart';
 import 'package:login_signin_assignment/title_head.dart';
 
 void main() {
@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginPage(),
+      home: HomePage(),
     );
   }
 }
