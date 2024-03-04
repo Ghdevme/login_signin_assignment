@@ -14,7 +14,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blueGrey[900],
-      body: Column(
+      body: ListView(
         children: [
           SizedBox(height: 30,),
           TitleHead(),
